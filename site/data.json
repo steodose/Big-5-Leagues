@@ -1,0 +1,7132 @@
+{
+ "meta": {
+  "generated": "2026-07-25 22:32 UTC",
+  "season": 2025,
+  "season_label": "2025/26",
+  "sources": [
+   "ESPN"
+  ],
+  "sim": {
+   "n_sims": 10000
+  }
+ },
+ "leagues": [
+  {
+   "key": "epl",
+   "name": "Premier League",
+   "country": "England",
+   "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png",
+   "zones": [
+    {
+     "key": "ucl",
+     "label": "Champions League",
+     "color": "#2f6fed"
+    },
+    {
+     "key": "uel",
+     "label": "Europa League",
+     "color": "#e08e00"
+    },
+    {
+     "key": "uecl",
+     "label": "Conference League",
+     "color": "#12a150"
+    },
+    {
+     "key": "releg",
+     "label": "Relegation",
+     "color": "#e34948"
+    }
+   ],
+   "sim": {
+    "n_sims": 10000,
+    "league_mu": 1.38,
+    "n_remaining": 0,
+    "spots": {
+     "ucl": 4,
+     "europe": 6,
+     "releg": 3
+    }
+   },
+   "teams": [
+    {
+     "abbrev": "ARS",
+     "name": "Arsenal",
+     "short_name": "Arsenal",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+     "color": "#e20520",
+     "position": 1,
+     "rank": 1,
+     "games_played": 38,
+     "wins": 26,
+     "draws": 7,
+     "losses": 5,
+     "points": 85,
+     "ppg": 2.24,
+     "goals_for": 71,
+     "goals_against": 27,
+     "goal_diff": 44,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "L",
+       "o": "MNC",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "NEW",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "FUL",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "WHU",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "BUR",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-18"
+      },
+      {
+       "r": "W",
+       "o": "CRY",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 85.0,
+     "proj_gd": 44.0,
+     "avg_finish": 1.0,
+     "p_title": 1.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "MNC",
+     "name": "Manchester City",
+     "short_name": "Man City",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+     "color": "#99c5ea",
+     "position": 2,
+     "rank": 2,
+     "games_played": 38,
+     "wins": 23,
+     "draws": 9,
+     "losses": 6,
+     "points": 78,
+     "ppg": 2.05,
+     "goals_for": 77,
+     "goals_against": 35,
+     "goal_diff": 42,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "BUR",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-22"
+      },
+      {
+       "r": "D",
+       "o": "EVE",
+       "s": "3-3",
+       "h": false,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "W",
+       "o": "BRE",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "CRY",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "D",
+       "o": "BOU",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-19"
+      },
+      {
+       "r": "L",
+       "o": "AVL",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 78.0,
+     "proj_gd": 42.0,
+     "avg_finish": 2.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "MAN",
+     "name": "Manchester United",
+     "short_name": "Man United",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+     "color": "#da020e",
+     "position": 3,
+     "rank": 3,
+     "games_played": 38,
+     "wins": 20,
+     "draws": 11,
+     "losses": 7,
+     "points": 71,
+     "ppg": 1.87,
+     "goals_for": 69,
+     "goals_against": 50,
+     "goal_diff": 19,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "CHE",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "BRE",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "W",
+       "o": "LIV",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "SUN",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "NFO",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "BHA",
+       "s": "3-0",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 71.0,
+     "proj_gd": 19.0,
+     "avg_finish": 3.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "AVL",
+     "name": "Aston Villa",
+     "short_name": "Aston Villa",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+     "color": "#660e36",
+     "position": 4,
+     "rank": 4,
+     "games_played": 38,
+     "wins": 19,
+     "draws": 8,
+     "losses": 11,
+     "points": 65,
+     "ppg": 1.71,
+     "goals_for": 56,
+     "goals_against": 49,
+     "goal_diff": 7,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "SUN",
+       "s": "4-3",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "FUL",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "TOT",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "BUR",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "LIV",
+       "s": "4-2",
+       "h": true,
+       "d": "2026-05-15"
+      },
+      {
+       "r": "W",
+       "o": "MNC",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 65.0,
+     "proj_gd": 7.0,
+     "avg_finish": 4.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LIV",
+     "name": "Liverpool",
+     "short_name": "Liverpool",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+     "color": "#d11317",
+     "position": 5,
+     "rank": 5,
+     "games_played": 38,
+     "wins": 17,
+     "draws": 9,
+     "losses": 12,
+     "points": 60,
+     "ppg": 1.58,
+     "goals_for": 63,
+     "goals_against": 53,
+     "goal_diff": 10,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "EVE",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "CRY",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "MAN",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "CHE",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "AVL",
+       "s": "2-4",
+       "h": false,
+       "d": "2026-05-15"
+      },
+      {
+       "r": "D",
+       "o": "BRE",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 60.0,
+     "proj_gd": 10.0,
+     "avg_finish": 5.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "BOU",
+     "name": "AFC Bournemouth",
+     "short_name": "Bournemouth",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+     "color": "#f42727",
+     "position": 6,
+     "rank": 6,
+     "games_played": 38,
+     "wins": 13,
+     "draws": 18,
+     "losses": 7,
+     "points": 57,
+     "ppg": 1.5,
+     "goals_for": 58,
+     "goals_against": 54,
+     "goal_diff": 4,
+     "note": "Europa League",
+     "note_color": "#B5E7CE",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "W",
+       "o": "NEW",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "LEE",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-04-22"
+      },
+      {
+       "r": "W",
+       "o": "CRY",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "FUL",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "MNC",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-19"
+      },
+      {
+       "r": "D",
+       "o": "NFO",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 57.0,
+     "proj_gd": 4.0,
+     "avg_finish": 6.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "SUN",
+     "name": "Sunderland",
+     "short_name": "Sunderland",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+     "color": "#EB172B",
+     "position": 7,
+     "rank": 7,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 12,
+     "losses": 12,
+     "points": 54,
+     "ppg": 1.42,
+     "goals_for": 42,
+     "goals_against": 48,
+     "goal_diff": -6,
+     "note": "Europa League",
+     "note_color": "#B5E7CE",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "L",
+       "o": "AVL",
+       "s": "3-4",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "NFO",
+       "s": "0-5",
+       "h": true,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "D",
+       "o": "WOL",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "D",
+       "o": "MAN",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "EVE",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "CHE",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 54.0,
+     "proj_gd": -6.0,
+     "avg_finish": 7.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "BHA",
+     "name": "Brighton & Hove Albion",
+     "short_name": "Brighton",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+     "color": "#0606fa",
+     "position": 8,
+     "rank": 8,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 11,
+     "losses": 13,
+     "points": 53,
+     "ppg": 1.39,
+     "goals_for": 52,
+     "goals_against": 46,
+     "goal_diff": 6,
+     "note": "Conference League Playoff Round",
+     "note_color": "#B2BFD0",
+     "zone": "uecl",
+     "form": [
+      {
+       "r": "D",
+       "o": "TOT",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "CHE",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-04-21"
+      },
+      {
+       "r": "L",
+       "o": "NEW",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "WOL",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "LEE",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "MAN",
+       "s": "0-3",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 53.0,
+     "proj_gd": 6.0,
+     "avg_finish": 8.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "BRE",
+     "name": "Brentford",
+     "short_name": "Brentford",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+     "color": "#f42727",
+     "position": 9,
+     "rank": 9,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 11,
+     "losses": 13,
+     "points": 53,
+     "ppg": 1.39,
+     "goals_for": 55,
+     "goals_against": 52,
+     "goal_diff": 3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "FUL",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "MAN",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "W",
+       "o": "WHU",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "MNC",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "CRY",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "LIV",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 53.0,
+     "proj_gd": 3.0,
+     "avg_finish": 9.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "CHE",
+     "name": "Chelsea",
+     "short_name": "Chelsea",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+     "color": "#144992",
+     "position": 10,
+     "rank": 10,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 10,
+     "losses": 14,
+     "points": 52,
+     "ppg": 1.37,
+     "goals_for": 58,
+     "goals_against": 52,
+     "goal_diff": 6,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "MAN",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "BHA",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-04-21"
+      },
+      {
+       "r": "L",
+       "o": "NFO",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "D",
+       "o": "LIV",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "TOT",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-19"
+      },
+      {
+       "r": "L",
+       "o": "SUN",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 52.0,
+     "proj_gd": 6.0,
+     "avg_finish": 10.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "FUL",
+     "name": "Fulham",
+     "short_name": "Fulham",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+     "color": "#ffffff",
+     "position": 11,
+     "rank": 11,
+     "games_played": 38,
+     "wins": 15,
+     "draws": 7,
+     "losses": 16,
+     "points": 52,
+     "ppg": 1.37,
+     "goals_for": 47,
+     "goals_against": 51,
+     "goal_diff": -4,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "BRE",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "AVL",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "ARS",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "BOU",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "WOL",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "NEW",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 52.0,
+     "proj_gd": -4.0,
+     "avg_finish": 11.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "NEW",
+     "name": "Newcastle United",
+     "short_name": "Newcastle",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+     "color": "#000000",
+     "position": 12,
+     "rank": 12,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 7,
+     "losses": 17,
+     "points": 49,
+     "ppg": 1.29,
+     "goals_for": 53,
+     "goals_against": 55,
+     "goal_diff": -2,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "BOU",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "ARS",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "BHA",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "D",
+       "o": "NFO",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "WHU",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "FUL",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 49.0,
+     "proj_gd": -2.0,
+     "avg_finish": 12.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "EVE",
+     "name": "Everton",
+     "short_name": "Everton",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+     "color": "#0606fa",
+     "position": 13,
+     "rank": 13,
+     "games_played": 38,
+     "wins": 13,
+     "draws": 10,
+     "losses": 15,
+     "points": 49,
+     "ppg": 1.29,
+     "goals_for": 47,
+     "goals_against": 50,
+     "goal_diff": -3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "LIV",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "WHU",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "MNC",
+       "s": "3-3",
+       "h": true,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "D",
+       "o": "CRY",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "SUN",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "TOT",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 49.0,
+     "proj_gd": -3.0,
+     "avg_finish": 13.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LEE",
+     "name": "Leeds United",
+     "short_name": "Leeds",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+     "color": "#ffffff",
+     "position": 14,
+     "rank": 14,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 14,
+     "losses": 13,
+     "points": 47,
+     "ppg": 1.24,
+     "goals_for": 49,
+     "goals_against": 56,
+     "goal_diff": -7,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "WOL",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "BOU",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-04-22"
+      },
+      {
+       "r": "W",
+       "o": "BUR",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-01"
+      },
+      {
+       "r": "D",
+       "o": "TOT",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-11"
+      },
+      {
+       "r": "W",
+       "o": "BHA",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "WHU",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 47.0,
+     "proj_gd": -7.0,
+     "avg_finish": 14.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "CRY",
+     "name": "Crystal Palace",
+     "short_name": "C Palace",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+     "color": "#0202fb",
+     "position": 15,
+     "rank": 15,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 12,
+     "losses": 15,
+     "points": 45,
+     "ppg": 1.18,
+     "goals_for": 41,
+     "goals_against": 51,
+     "goal_diff": -10,
+     "note": "Europa League",
+     "note_color": "#B5E7CE",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "L",
+       "o": "LIV",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "BOU",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "EVE",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "MNC",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "D",
+       "o": "BRE",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "ARS",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 45.0,
+     "proj_gd": -10.0,
+     "avg_finish": 15.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "NFO",
+     "name": "Nottingham Forest",
+     "short_name": "Nottm Forest",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+     "color": "#c8102e",
+     "position": 16,
+     "rank": 16,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 11,
+     "losses": 16,
+     "points": 44,
+     "ppg": 1.16,
+     "goals_for": 48,
+     "goals_against": 51,
+     "goal_diff": -3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "BUR",
+       "s": "4-1",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "SUN",
+       "s": "5-0",
+       "h": false,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "W",
+       "o": "CHE",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "D",
+       "o": "NEW",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "MAN",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "BOU",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 44.0,
+     "proj_gd": -3.0,
+     "avg_finish": 16.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "TOT",
+     "name": "Tottenham Hotspur",
+     "short_name": "Spurs",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+     "color": "#ffffff",
+     "position": 17,
+     "rank": 17,
+     "games_played": 38,
+     "wins": 10,
+     "draws": 11,
+     "losses": 17,
+     "points": 41,
+     "ppg": 1.08,
+     "goals_for": 48,
+     "goals_against": 57,
+     "goal_diff": -9,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "BHA",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "WOL",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "AVL",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "LEE",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-11"
+      },
+      {
+       "r": "L",
+       "o": "CHE",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-19"
+      },
+      {
+       "r": "W",
+       "o": "EVE",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 41.0,
+     "proj_gd": -9.0,
+     "avg_finish": 17.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "WHU",
+     "name": "West Ham United",
+     "short_name": "West Ham",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png",
+     "color": null,
+     "position": 18,
+     "rank": 18,
+     "games_played": 38,
+     "wins": 10,
+     "draws": 9,
+     "losses": 19,
+     "points": 39,
+     "ppg": 1.03,
+     "goals_for": 46,
+     "goals_against": 65,
+     "goal_diff": -19,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "D",
+       "o": "CRY",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-20"
+      },
+      {
+       "r": "W",
+       "o": "EVE",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "BRE",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "ARS",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "NEW",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "LEE",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 39.0,
+     "proj_gd": -19.0,
+     "avg_finish": 18.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "BUR",
+     "name": "Burnley",
+     "short_name": "Burnley",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
+     "color": null,
+     "position": 19,
+     "rank": 19,
+     "games_played": 38,
+     "wins": 4,
+     "draws": 10,
+     "losses": 24,
+     "points": 22,
+     "ppg": 0.58,
+     "goals_for": 38,
+     "goals_against": 75,
+     "goal_diff": -37,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "L",
+       "o": "NFO",
+       "s": "1-4",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "MNC",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-22"
+      },
+      {
+       "r": "L",
+       "o": "LEE",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-01"
+      },
+      {
+       "r": "D",
+       "o": "AVL",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "ARS",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-18"
+      },
+      {
+       "r": "D",
+       "o": "WOL",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 22.0,
+     "proj_gd": -37.0,
+     "avg_finish": 19.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "WOL",
+     "name": "Wolverhampton Wanderers",
+     "short_name": "Wolves",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png",
+     "color": null,
+     "position": 20,
+     "rank": 20,
+     "games_played": 38,
+     "wins": 3,
+     "draws": 11,
+     "losses": 24,
+     "points": 20,
+     "ppg": 0.53,
+     "goals_for": 27,
+     "goals_against": 68,
+     "goal_diff": -41,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "L",
+       "o": "LEE",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "TOT",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "SUN",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "BHA",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "FUL",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "BUR",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 20.0,
+     "proj_gd": -41.0,
+     "avg_finish": 20.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    }
+   ]
+  },
+  {
+   "key": "laliga",
+   "name": "La Liga",
+   "country": "Spain",
+   "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+   "zones": [
+    {
+     "key": "ucl",
+     "label": "Champions League",
+     "color": "#2f6fed"
+    },
+    {
+     "key": "uel",
+     "label": "Europa League",
+     "color": "#e08e00"
+    },
+    {
+     "key": "uecl",
+     "label": "Conference League",
+     "color": "#12a150"
+    },
+    {
+     "key": "releg",
+     "label": "Relegation",
+     "color": "#e34948"
+    }
+   ],
+   "sim": {
+    "n_sims": 10000,
+    "league_mu": 1.35,
+    "n_remaining": 0,
+    "spots": {
+     "ucl": 4,
+     "europe": 6,
+     "releg": 3
+    }
+   },
+   "teams": [
+    {
+     "abbrev": "BAR",
+     "name": "Barcelona",
+     "short_name": "Barcelona",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+     "color": "#990000",
+     "position": 1,
+     "rank": 1,
+     "games_played": 38,
+     "wins": 31,
+     "draws": 1,
+     "losses": 6,
+     "points": 94,
+     "ppg": 2.47,
+     "goals_for": 95,
+     "goals_against": 36,
+     "goal_diff": 59,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "GET",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "OSA",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "RMA",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "ALA",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "W",
+       "o": "BET",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "VAL",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 94.0,
+     "proj_gd": 59.0,
+     "avg_finish": 1.0,
+     "p_title": 1.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "RMA",
+     "name": "Real Madrid",
+     "short_name": "Real Madrid",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+     "color": "#ffffff",
+     "position": 2,
+     "rank": 2,
+     "games_played": 38,
+     "wins": 27,
+     "draws": 5,
+     "losses": 6,
+     "points": 86,
+     "ppg": 2.26,
+     "goals_for": 77,
+     "goals_against": 35,
+     "goal_diff": 42,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "D",
+       "o": "BET",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "W",
+       "o": "ESP",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "BAR",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "OVI",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-14"
+      },
+      {
+       "r": "W",
+       "o": "SEV",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "ATH",
+       "s": "4-2",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 86.0,
+     "proj_gd": 42.0,
+     "avg_finish": 2.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "VIL",
+     "name": "Villarreal",
+     "short_name": "Villarreal",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+     "color": "#ffff00",
+     "position": 3,
+     "rank": 3,
+     "games_played": 38,
+     "wins": 22,
+     "draws": 6,
+     "losses": 10,
+     "points": 72,
+     "ppg": 1.89,
+     "goals_for": 72,
+     "goals_against": 46,
+     "goal_diff": 26,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "CEL",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "LEV",
+       "s": "5-1",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "D",
+       "o": "MLL",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "SEV",
+       "s": "2-3",
+       "h": true,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "L",
+       "o": "RAY",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "ATM",
+       "s": "5-1",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 72.0,
+     "proj_gd": 26.0,
+     "avg_finish": 3.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ATM",
+     "name": "Atlético Madrid",
+     "short_name": "Atlético",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+     "color": "#ca3624",
+     "position": 4,
+     "rank": 4,
+     "games_played": 38,
+     "wins": 21,
+     "draws": 6,
+     "losses": 11,
+     "points": 69,
+     "ppg": 1.82,
+     "goals_for": 62,
+     "goals_against": 44,
+     "goal_diff": 18,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "ATH",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "VAL",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "CEL",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "OSA",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-12"
+      },
+      {
+       "r": "W",
+       "o": "GIR",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "VIL",
+       "s": "1-5",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 69.0,
+     "proj_gd": 18.0,
+     "avg_finish": 4.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "BET",
+     "name": "Real Betis",
+     "short_name": "Betis",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+     "color": "#288A00",
+     "position": 5,
+     "rank": 5,
+     "games_played": 38,
+     "wins": 15,
+     "draws": 15,
+     "losses": 8,
+     "points": 60,
+     "ppg": 1.58,
+     "goals_for": 59,
+     "goals_against": 48,
+     "goal_diff": 11,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "D",
+       "o": "RMA",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "W",
+       "o": "OVI",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "RSO",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "ELC",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-12"
+      },
+      {
+       "r": "L",
+       "o": "BAR",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "LEV",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 60.0,
+     "proj_gd": 11.0,
+     "avg_finish": 5.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "CEL",
+     "name": "Celta Vigo",
+     "short_name": "Celta Vigo",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+     "color": "#6cace4",
+     "position": 6,
+     "rank": 6,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 12,
+     "losses": 12,
+     "points": 54,
+     "ppg": 1.42,
+     "goals_for": 53,
+     "goals_against": 48,
+     "goal_diff": 5,
+     "note": "Europa League",
+     "note_color": "#c6d1e0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "L",
+       "o": "VIL",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "ELC",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "ATM",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "LEV",
+       "s": "2-3",
+       "h": true,
+       "d": "2026-05-12"
+      },
+      {
+       "r": "D",
+       "o": "ATH",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "SEV",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 54.0,
+     "proj_gd": 5.0,
+     "avg_finish": 6.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "GET",
+     "name": "Getafe",
+     "short_name": "Getafe",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+     "color": "#0000ff",
+     "position": 7,
+     "rank": 7,
+     "games_played": 38,
+     "wins": 15,
+     "draws": 6,
+     "losses": 17,
+     "points": 51,
+     "ppg": 1.34,
+     "goals_for": 32,
+     "goals_against": 38,
+     "goal_diff": -6,
+     "note": "Conference League qualifying",
+     "note_color": "#B2BFD0",
+     "zone": "uecl",
+     "form": [
+      {
+       "r": "L",
+       "o": "BAR",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "RAY",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "OVI",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "MLL",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "L",
+       "o": "ELC",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "OSA",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 51.0,
+     "proj_gd": -6.0,
+     "avg_finish": 7.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "RAY",
+     "name": "Rayo Vallecano",
+     "short_name": "Rayo",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+     "color": "#ffffff",
+     "position": 8,
+     "rank": 8,
+     "games_played": 38,
+     "wins": 12,
+     "draws": 14,
+     "losses": 12,
+     "points": 50,
+     "ppg": 1.32,
+     "goals_for": 41,
+     "goals_against": 44,
+     "goal_diff": -3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "RSO",
+       "s": "3-3",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "GET",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "GIR",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-11"
+      },
+      {
+       "r": "D",
+       "o": "VAL",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-14"
+      },
+      {
+       "r": "W",
+       "o": "VIL",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "ALA",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 50.0,
+     "proj_gd": -3.0,
+     "avg_finish": 8.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "VAL",
+     "name": "Valencia",
+     "short_name": "Valencia",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+     "color": "#ffffff",
+     "position": 9,
+     "rank": 9,
+     "games_played": 38,
+     "wins": 13,
+     "draws": 10,
+     "losses": 15,
+     "points": 49,
+     "ppg": 1.29,
+     "goals_for": 46,
+     "goals_against": 55,
+     "goal_diff": -9,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "GIR",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "ATM",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "ATH",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "D",
+       "o": "RAY",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-14"
+      },
+      {
+       "r": "W",
+       "o": "RSO",
+       "s": "4-3",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "BAR",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 49.0,
+     "proj_gd": -9.0,
+     "avg_finish": 9.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "RSO",
+     "name": "Real Sociedad",
+     "short_name": "Real Sociedad",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+     "color": "#3366CC",
+     "position": 10,
+     "rank": 10,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 13,
+     "losses": 14,
+     "points": 46,
+     "ppg": 1.21,
+     "goals_for": 59,
+     "goals_against": 61,
+     "goal_diff": -2,
+     "note": "Europa League",
+     "note_color": "##c6d1e0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "D",
+       "o": "RAY",
+       "s": "3-3",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "SEV",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "D",
+       "o": "BET",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "GIR",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-14"
+      },
+      {
+       "r": "L",
+       "o": "VAL",
+       "s": "3-4",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "ESP",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 46.0,
+     "proj_gd": -2.0,
+     "avg_finish": 10.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ESP",
+     "name": "Espanyol",
+     "short_name": "Espanyol",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+     "color": "#3366CC",
+     "position": 11,
+     "rank": 11,
+     "games_played": 38,
+     "wins": 12,
+     "draws": 10,
+     "losses": 16,
+     "points": 46,
+     "ppg": 1.21,
+     "goals_for": 43,
+     "goals_against": 55,
+     "goal_diff": -12,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "LEV",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "L",
+       "o": "RMA",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "SEV",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "ATH",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "W",
+       "o": "OSA",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "RSO",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 46.0,
+     "proj_gd": -12.0,
+     "avg_finish": 11.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ATH",
+     "name": "Athletic Club",
+     "short_name": "Athletic",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+     "color": "#C8142F",
+     "position": 12,
+     "rank": 12,
+     "games_played": 38,
+     "wins": 13,
+     "draws": 6,
+     "losses": 19,
+     "points": 45,
+     "ppg": 1.18,
+     "goals_for": 43,
+     "goals_against": 58,
+     "goal_diff": -15,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "ATM",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "ALA",
+       "s": "4-2",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "VAL",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "ESP",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "D",
+       "o": "CEL",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "RMA",
+       "s": "2-4",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 45.0,
+     "proj_gd": -15.0,
+     "avg_finish": 12.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "SEV",
+     "name": "Sevilla",
+     "short_name": "Sevilla",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+     "color": "#ffffff",
+     "position": 13,
+     "rank": 13,
+     "games_played": 38,
+     "wins": 12,
+     "draws": 7,
+     "losses": 19,
+     "points": 43,
+     "ppg": 1.13,
+     "goals_for": 46,
+     "goals_against": 60,
+     "goal_diff": -14,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "OSA",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "RSO",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "W",
+       "o": "ESP",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "VIL",
+       "s": "3-2",
+       "h": false,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "L",
+       "o": "RMA",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "CEL",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 43.0,
+     "proj_gd": -14.0,
+     "avg_finish": 15.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ALA",
+     "name": "Alavés",
+     "short_name": "Alavés",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+     "color": "#0000ff",
+     "position": 14,
+     "rank": 14,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 10,
+     "losses": 17,
+     "points": 43,
+     "ppg": 1.13,
+     "goals_for": 44,
+     "goals_against": 56,
+     "goal_diff": -12,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "MLL",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "ATH",
+       "s": "2-4",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "D",
+       "o": "ELC",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "BAR",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "W",
+       "o": "OVI",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "RAY",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 43.0,
+     "proj_gd": -12.0,
+     "avg_finish": 14.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ELC",
+     "name": "Elche",
+     "short_name": "Elche",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+     "color": "#ffffff",
+     "position": 15,
+     "rank": 15,
+     "games_played": 38,
+     "wins": 10,
+     "draws": 13,
+     "losses": 15,
+     "points": 43,
+     "ppg": 1.13,
+     "goals_for": 49,
+     "goals_against": 57,
+     "goal_diff": -8,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "OVI",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "CEL",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "ALA",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "BET",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-12"
+      },
+      {
+       "r": "W",
+       "o": "GET",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "GIR",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 43.0,
+     "proj_gd": -8.0,
+     "avg_finish": 13.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LEV",
+     "name": "Levante",
+     "short_name": "Levante",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+     "color": "#C8142F",
+     "position": 16,
+     "rank": 16,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 9,
+     "losses": 18,
+     "points": 42,
+     "ppg": 1.11,
+     "goals_for": 47,
+     "goals_against": 61,
+     "goal_diff": -14,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "ESP",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "L",
+       "o": "VIL",
+       "s": "1-5",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "OSA",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-05-08"
+      },
+      {
+       "r": "W",
+       "o": "CEL",
+       "s": "3-2",
+       "h": false,
+       "d": "2026-05-12"
+      },
+      {
+       "r": "W",
+       "o": "MLL",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "BET",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 42.0,
+     "proj_gd": -14.0,
+     "avg_finish": 18.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "OSA",
+     "name": "Osasuna",
+     "short_name": "Osasuna",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+     "color": "#cd0000",
+     "position": 17,
+     "rank": 17,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 9,
+     "losses": 18,
+     "points": 42,
+     "ppg": 1.11,
+     "goals_for": 44,
+     "goals_against": 50,
+     "goal_diff": -6,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "SEV",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "BAR",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "LEV",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-05-08"
+      },
+      {
+       "r": "L",
+       "o": "ATM",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-12"
+      },
+      {
+       "r": "L",
+       "o": "ESP",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "GET",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 42.0,
+     "proj_gd": -6.0,
+     "avg_finish": 16.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "MLL",
+     "name": "Mallorca",
+     "short_name": "Mallorca",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+     "color": null,
+     "position": 18,
+     "rank": 18,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 9,
+     "losses": 18,
+     "points": 42,
+     "ppg": 1.11,
+     "goals_for": 47,
+     "goals_against": 57,
+     "goal_diff": -10,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "L",
+       "o": "ALA",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "GIR",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-01"
+      },
+      {
+       "r": "D",
+       "o": "VIL",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "GET",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "L",
+       "o": "LEV",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "OVI",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 42.0,
+     "proj_gd": -10.0,
+     "avg_finish": 17.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "GIR",
+     "name": "Girona",
+     "short_name": "Girona",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+     "color": null,
+     "position": 19,
+     "rank": 19,
+     "games_played": 38,
+     "wins": 9,
+     "draws": 14,
+     "losses": 15,
+     "points": 41,
+     "ppg": 1.08,
+     "goals_for": 39,
+     "goals_against": 55,
+     "goal_diff": -16,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "L",
+       "o": "VAL",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "MLL",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-01"
+      },
+      {
+       "r": "D",
+       "o": "RAY",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-11"
+      },
+      {
+       "r": "D",
+       "o": "RSO",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-14"
+      },
+      {
+       "r": "L",
+       "o": "ATM",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "ELC",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 41.0,
+     "proj_gd": -16.0,
+     "avg_finish": 19.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "OVI",
+     "name": "Real Oviedo",
+     "short_name": "Real Oviedo",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+     "color": null,
+     "position": 20,
+     "rank": 20,
+     "games_played": 38,
+     "wins": 6,
+     "draws": 11,
+     "losses": 21,
+     "points": 29,
+     "ppg": 0.76,
+     "goals_for": 26,
+     "goals_against": 60,
+     "goal_diff": -34,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "L",
+       "o": "ELC",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "BET",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "GET",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "RMA",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-14"
+      },
+      {
+       "r": "L",
+       "o": "ALA",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "MLL",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 29.0,
+     "proj_gd": -34.0,
+     "avg_finish": 20.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    }
+   ]
+  },
+  {
+   "key": "bundesliga",
+   "name": "Bundesliga",
+   "country": "Germany",
+   "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+   "zones": [
+    {
+     "key": "ucl",
+     "label": "Champions League",
+     "color": "#2f6fed"
+    },
+    {
+     "key": "uel",
+     "label": "Europa League",
+     "color": "#e08e00"
+    },
+    {
+     "key": "uecl",
+     "label": "Conference League",
+     "color": "#12a150"
+    },
+    {
+     "key": "releg_playoff",
+     "label": "Relegation playoff",
+     "color": "#e0653a"
+    },
+    {
+     "key": "releg",
+     "label": "Relegation",
+     "color": "#e34948"
+    }
+   ],
+   "sim": {
+    "n_sims": 10000,
+    "league_mu": 1.62,
+    "n_remaining": 0,
+    "spots": {
+     "ucl": 4,
+     "europe": 6,
+     "releg": 3
+    }
+   },
+   "teams": [
+    {
+     "abbrev": "MUN",
+     "name": "Bayern Munich",
+     "short_name": "Bayern",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+     "color": "#dc052d",
+     "position": 1,
+     "rank": 1,
+     "games_played": 34,
+     "wins": 28,
+     "draws": 5,
+     "losses": 1,
+     "points": 89,
+     "ppg": 2.62,
+     "goals_for": 122,
+     "goals_against": 36,
+     "goal_diff": 86,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "STP",
+       "s": "5-0",
+       "h": false,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "W",
+       "o": "VFB",
+       "s": "4-2",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "M05",
+       "s": "4-3",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "HDH",
+       "s": "3-3",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "WOB",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "KOE",
+       "s": "5-1",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 89.0,
+     "proj_gd": 86.0,
+     "avg_finish": 1.0,
+     "p_title": 1.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "DOR",
+     "name": "Borussia Dortmund",
+     "short_name": "Dortmund",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+     "color": "#ffee00",
+     "position": 2,
+     "rank": 2,
+     "games_played": 34,
+     "wins": 22,
+     "draws": 7,
+     "losses": 5,
+     "points": 73,
+     "ppg": 2.15,
+     "goals_for": 70,
+     "goals_against": 34,
+     "goal_diff": 36,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "L",
+       "o": "B04",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "L",
+       "o": "TSG",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "SCF",
+       "s": "4-0",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "BMG",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "SGE",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-05-08"
+      },
+      {
+       "r": "W",
+       "o": "SVW",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 73.0,
+     "proj_gd": 36.0,
+     "avg_finish": 2.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "RBL",
+     "name": "RB Leipzig",
+     "short_name": "RB Leipzig",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+     "color": "#ffffff",
+     "position": 3,
+     "rank": 3,
+     "games_played": 34,
+     "wins": 20,
+     "draws": 5,
+     "losses": 9,
+     "points": 65,
+     "ppg": 1.91,
+     "goals_for": 66,
+     "goals_against": 47,
+     "goal_diff": 19,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "BMG",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "W",
+       "o": "SGE",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "FCU",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "L",
+       "o": "B04",
+       "s": "1-4",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "STP",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "SCF",
+       "s": "1-4",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 65.0,
+     "proj_gd": 19.0,
+     "avg_finish": 3.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "VFB",
+     "name": "VfB Stuttgart",
+     "short_name": "Stuttgart",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+     "color": "#ffffff",
+     "position": 4,
+     "rank": 4,
+     "games_played": 34,
+     "wins": 18,
+     "draws": 8,
+     "losses": 8,
+     "points": 62,
+     "ppg": 1.82,
+     "goals_for": 71,
+     "goals_against": 49,
+     "goal_diff": 22,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "HSV",
+       "s": "4-0",
+       "h": true,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "L",
+       "o": "MUN",
+       "s": "2-4",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "SVW",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "TSG",
+       "s": "3-3",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "B04",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "SGE",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 62.0,
+     "proj_gd": 22.0,
+     "avg_finish": 4.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "TSG",
+     "name": "TSG Hoffenheim",
+     "short_name": "Hoffenheim",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+     "color": "#003399",
+     "position": 5,
+     "rank": 5,
+     "games_played": 34,
+     "wins": 18,
+     "draws": 7,
+     "losses": 9,
+     "points": 61,
+     "ppg": 1.79,
+     "goals_for": 65,
+     "goals_against": 52,
+     "goal_diff": 13,
+     "note": "Europa League",
+     "note_color": "#B2BFD0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "D",
+       "o": "FCA",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-04-10"
+      },
+      {
+       "r": "W",
+       "o": "DOR",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "HSV",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "VFB",
+       "s": "3-3",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "SVW",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "BMG",
+       "s": "0-4",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 61.0,
+     "proj_gd": 13.0,
+     "avg_finish": 5.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "B04",
+     "name": "Bayer Leverkusen",
+     "short_name": "Leverkusen",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+     "color": "#DA0308",
+     "position": 6,
+     "rank": 6,
+     "games_played": 34,
+     "wins": 17,
+     "draws": 8,
+     "losses": 9,
+     "points": 59,
+     "ppg": 1.74,
+     "goals_for": 68,
+     "goals_against": 47,
+     "goal_diff": 21,
+     "note": "Europa League",
+     "note_color": "#B2BFD0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "W",
+       "o": "DOR",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "L",
+       "o": "FCA",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "KOE",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "RBL",
+       "s": "4-1",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "VFB",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "HSV",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 59.0,
+     "proj_gd": 21.0,
+     "avg_finish": 6.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "SCF",
+     "name": "SC Freiburg",
+     "short_name": "Freiburg",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+     "color": "#DA0308",
+     "position": 7,
+     "rank": 7,
+     "games_played": 34,
+     "wins": 13,
+     "draws": 8,
+     "losses": 13,
+     "points": 47,
+     "ppg": 1.38,
+     "goals_for": 51,
+     "goals_against": 57,
+     "goal_diff": -6,
+     "note": "Conference League qualifying",
+     "note_color": "#B2BFD0",
+     "zone": "uecl",
+     "form": [
+      {
+       "r": "W",
+       "o": "M05",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "W",
+       "o": "HDH",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "DOR",
+       "s": "0-4",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "WOB",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "HSV",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "RBL",
+       "s": "4-1",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 47.0,
+     "proj_gd": -6.0,
+     "avg_finish": 7.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "SGE",
+     "name": "Eintracht Frankfurt",
+     "short_name": "Frankfurt",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+     "color": "#ffffff",
+     "position": 8,
+     "rank": 8,
+     "games_played": 34,
+     "wins": 11,
+     "draws": 11,
+     "losses": 12,
+     "points": 44,
+     "ppg": 1.29,
+     "goals_for": 61,
+     "goals_against": 65,
+     "goal_diff": -4,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "WOB",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "L",
+       "o": "RBL",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "FCA",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "HSV",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "DOR",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-05-08"
+      },
+      {
+       "r": "D",
+       "o": "VFB",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 44.0,
+     "proj_gd": -4.0,
+     "avg_finish": 8.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "FCA",
+     "name": "FC Augsburg",
+     "short_name": "Augsburg",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+     "color": "#ffffff",
+     "position": 9,
+     "rank": 9,
+     "games_played": 34,
+     "wins": 12,
+     "draws": 7,
+     "losses": 15,
+     "points": 43,
+     "ppg": 1.26,
+     "goals_for": 45,
+     "goals_against": 61,
+     "goal_diff": -16,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "TSG",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-04-10"
+      },
+      {
+       "r": "W",
+       "o": "B04",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "SGE",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "SVW",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "BMG",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "FCU",
+       "s": "0-4",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 43.0,
+     "proj_gd": -16.0,
+     "avg_finish": 9.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "M05",
+     "name": "Mainz",
+     "short_name": "Mainz",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+     "color": "#DA0308",
+     "position": 10,
+     "rank": 10,
+     "games_played": 34,
+     "wins": 10,
+     "draws": 10,
+     "losses": 14,
+     "points": 40,
+     "ppg": 1.18,
+     "goals_for": 44,
+     "goals_against": 53,
+     "goal_diff": -9,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "SCF",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "D",
+       "o": "BMG",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "MUN",
+       "s": "3-4",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "STP",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "FCU",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "HDH",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 40.0,
+     "proj_gd": -9.0,
+     "avg_finish": 10.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "FCU",
+     "name": "1. FC Union Berlin",
+     "short_name": "Union Berlin",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+     "color": "#DA0308",
+     "position": 11,
+     "rank": 11,
+     "games_played": 34,
+     "wins": 10,
+     "draws": 9,
+     "losses": 15,
+     "points": 39,
+     "ppg": 1.15,
+     "goals_for": 44,
+     "goals_against": 58,
+     "goal_diff": -14,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "HDH",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "L",
+       "o": "WOB",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "RBL",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "D",
+       "o": "KOE",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "M05",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "FCA",
+       "s": "4-0",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 39.0,
+     "proj_gd": -14.0,
+     "avg_finish": 11.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "BMG",
+     "name": "Borussia Mönchengladbach",
+     "short_name": "Gladbach",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+     "color": "#ffffff",
+     "position": 12,
+     "rank": 12,
+     "games_played": 34,
+     "wins": 9,
+     "draws": 11,
+     "losses": 14,
+     "points": 38,
+     "ppg": 1.12,
+     "goals_for": 42,
+     "goals_against": 53,
+     "goal_diff": -11,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "RBL",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "D",
+       "o": "M05",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "WOB",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "DOR",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "FCA",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "TSG",
+       "s": "4-0",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 38.0,
+     "proj_gd": -11.0,
+     "avg_finish": 12.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "HSV",
+     "name": "Hamburg SV",
+     "short_name": "Hamburg",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+     "color": "#1a26af",
+     "position": 13,
+     "rank": 13,
+     "games_played": 34,
+     "wins": 9,
+     "draws": 11,
+     "losses": 14,
+     "points": 38,
+     "ppg": 1.12,
+     "goals_for": 40,
+     "goals_against": 54,
+     "goal_diff": -14,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "VFB",
+       "s": "0-4",
+       "h": false,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "L",
+       "o": "SVW",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "TSG",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "SGE",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "SCF",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "D",
+       "o": "B04",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 38.0,
+     "proj_gd": -14.0,
+     "avg_finish": 13.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "KOE",
+     "name": "FC Cologne",
+     "short_name": "Cologne",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+     "color": "#ffffff",
+     "position": 14,
+     "rank": 14,
+     "games_played": 34,
+     "wins": 7,
+     "draws": 11,
+     "losses": 16,
+     "points": 32,
+     "ppg": 0.94,
+     "goals_for": 49,
+     "goals_against": 63,
+     "goal_diff": -14,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "SVW",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "D",
+       "o": "STP",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "L",
+       "o": "B04",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "FCU",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "HDH",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "MUN",
+       "s": "1-5",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 32.0,
+     "proj_gd": -14.0,
+     "avg_finish": 14.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "SVW",
+     "name": "Werder Bremen",
+     "short_name": "Bremen",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+     "color": "#03915c",
+     "position": 15,
+     "rank": 15,
+     "games_played": 34,
+     "wins": 8,
+     "draws": 8,
+     "losses": 18,
+     "points": 32,
+     "ppg": 0.94,
+     "goals_for": 37,
+     "goals_against": 60,
+     "goal_diff": -23,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "KOE",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "W",
+       "o": "HSV",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "VFB",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "FCA",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "TSG",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "DOR",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 32.0,
+     "proj_gd": -23.0,
+     "avg_finish": 15.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "WOB",
+     "name": "VfL Wolfsburg",
+     "short_name": "Wolfsburg",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/138.png",
+     "color": null,
+     "position": 16,
+     "rank": 16,
+     "games_played": 34,
+     "wins": 7,
+     "draws": 8,
+     "losses": 19,
+     "points": 29,
+     "ppg": 0.85,
+     "goals_for": 45,
+     "goals_against": 69,
+     "goal_diff": -24,
+     "note": "Relegation playoff",
+     "note_color": "#FEB4B5",
+     "zone": "releg_playoff",
+     "form": [
+      {
+       "r": "L",
+       "o": "SGE",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "W",
+       "o": "FCU",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "BMG",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "SCF",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "MUN",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "STP",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 29.0,
+     "proj_gd": -24.0,
+     "avg_finish": 16.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "HDH",
+     "name": "1. FC Heidenheim 1846",
+     "short_name": "Heidenheim",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6418.png",
+     "color": null,
+     "position": 17,
+     "rank": 17,
+     "games_played": 34,
+     "wins": 6,
+     "draws": 8,
+     "losses": 20,
+     "points": 26,
+     "ppg": 0.76,
+     "goals_for": 41,
+     "goals_against": 72,
+     "goal_diff": -31,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "W",
+       "o": "FCU",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "L",
+       "o": "SCF",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "STP",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "MUN",
+       "s": "3-3",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "KOE",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "M05",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 26.0,
+     "proj_gd": -31.0,
+     "avg_finish": 17.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "STP",
+     "name": "St. Pauli",
+     "short_name": "St. Pauli",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/270.png",
+     "color": null,
+     "position": 18,
+     "rank": 18,
+     "games_played": 34,
+     "wins": 6,
+     "draws": 8,
+     "losses": 20,
+     "points": 26,
+     "ppg": 0.76,
+     "goals_for": 29,
+     "goals_against": 60,
+     "goal_diff": -31,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "L",
+       "o": "MUN",
+       "s": "0-5",
+       "h": true,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "D",
+       "o": "KOE",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "L",
+       "o": "HDH",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "M05",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "RBL",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "WOB",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-05-16"
+      }
+     ],
+     "proj_points": 26.0,
+     "proj_gd": -31.0,
+     "avg_finish": 18.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    }
+   ]
+  },
+  {
+   "key": "seriea",
+   "name": "Serie A",
+   "country": "Italy",
+   "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+   "zones": [
+    {
+     "key": "ucl",
+     "label": "Champions League",
+     "color": "#2f6fed"
+    },
+    {
+     "key": "uel",
+     "label": "Europa League",
+     "color": "#e08e00"
+    },
+    {
+     "key": "uecl",
+     "label": "Conference League",
+     "color": "#12a150"
+    }
+   ],
+   "sim": {
+    "n_sims": 10000,
+    "league_mu": 1.21,
+    "n_remaining": 0,
+    "spots": {
+     "ucl": 4,
+     "europe": 6,
+     "releg": 3
+    }
+   },
+   "teams": [
+    {
+     "abbrev": "INT",
+     "name": "Internazionale",
+     "short_name": "Inter Milan",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+     "color": "#00239c",
+     "position": 1,
+     "rank": 1,
+     "games_played": 38,
+     "wins": 27,
+     "draws": 6,
+     "losses": 5,
+     "points": 87,
+     "ppg": 2.29,
+     "goals_for": 89,
+     "goals_against": 35,
+     "goal_diff": 54,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "CAG",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "D",
+       "o": "TOR",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "PAR",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "LAZ",
+       "s": "3-0",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "D",
+       "o": "VER",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "BOL",
+       "s": "3-3",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 87.0,
+     "proj_gd": 54.0,
+     "avg_finish": 1.0,
+     "p_title": 1.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "NAP",
+     "name": "Napoli",
+     "short_name": "Napoli",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+     "color": "#0677d2",
+     "position": 2,
+     "rank": 2,
+     "games_played": 38,
+     "wins": 23,
+     "draws": 7,
+     "losses": 8,
+     "points": 76,
+     "ppg": 2.0,
+     "goals_for": 58,
+     "goals_against": 36,
+     "goal_diff": 22,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "L",
+       "o": "LAZ",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "CRE",
+       "s": "4-0",
+       "h": true,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "D",
+       "o": "COMO",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "BOL",
+       "s": "2-3",
+       "h": true,
+       "d": "2026-05-11"
+      },
+      {
+       "r": "W",
+       "o": "PIS",
+       "s": "3-0",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "UDI",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 76.0,
+     "proj_gd": 22.0,
+     "avg_finish": 2.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ROMA",
+     "name": "AS Roma",
+     "short_name": "AS Roma",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+     "color": "#990a2c",
+     "position": 3,
+     "rank": 3,
+     "games_played": 38,
+     "wins": 23,
+     "draws": 4,
+     "losses": 11,
+     "points": 73,
+     "ppg": 1.92,
+     "goals_for": 59,
+     "goals_against": 31,
+     "goal_diff": 28,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "D",
+       "o": "ATA",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "BOL",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "FIO",
+       "s": "4-0",
+       "h": true,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "W",
+       "o": "PAR",
+       "s": "3-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "LAZ",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "VER",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 73.0,
+     "proj_gd": 28.0,
+     "avg_finish": 3.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "COMO",
+     "name": "Como",
+     "short_name": "Como",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+     "color": "#3933FF",
+     "position": 4,
+     "rank": 4,
+     "games_played": 38,
+     "wins": 20,
+     "draws": 11,
+     "losses": 7,
+     "points": 71,
+     "ppg": 1.87,
+     "goals_for": 65,
+     "goals_against": 29,
+     "goal_diff": 36,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "L",
+       "o": "SAS",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "W",
+       "o": "GEN",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "NAP",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "VER",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "PAR",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "CRE",
+       "s": "4-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 71.0,
+     "proj_gd": 36.0,
+     "avg_finish": 4.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "MIL",
+     "name": "AC Milan",
+     "short_name": "Milan",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+     "color": "#e4002b",
+     "position": 5,
+     "rank": 5,
+     "games_played": 38,
+     "wins": 20,
+     "draws": 10,
+     "losses": 8,
+     "points": 70,
+     "ppg": 1.84,
+     "goals_for": 53,
+     "goals_against": 35,
+     "goal_diff": 18,
+     "note": "Europa League",
+     "note_color": "#B2BFD0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "W",
+       "o": "VER",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "JUV",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "SAS",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "ATA",
+       "s": "2-3",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "GEN",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "CAG",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 70.0,
+     "proj_gd": 18.0,
+     "avg_finish": 5.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "JUV",
+     "name": "Juventus",
+     "short_name": "Juventus",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+     "color": "#000000",
+     "position": 6,
+     "rank": 6,
+     "games_played": 38,
+     "wins": 19,
+     "draws": 12,
+     "losses": 7,
+     "points": 69,
+     "ppg": 1.82,
+     "goals_for": 61,
+     "goals_against": 34,
+     "goal_diff": 27,
+     "note": "Europa League",
+     "note_color": "#B2BFD0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "W",
+       "o": "BOL",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "MIL",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "VER",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "LEC",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "FIO",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "TOR",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 69.0,
+     "proj_gd": 27.0,
+     "avg_finish": 6.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ATA",
+     "name": "Atalanta",
+     "short_name": "Atalanta",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+     "color": "#1157bf",
+     "position": 7,
+     "rank": 7,
+     "games_played": 38,
+     "wins": 15,
+     "draws": 14,
+     "losses": 9,
+     "points": 59,
+     "ppg": 1.55,
+     "goals_for": 51,
+     "goals_against": 36,
+     "goal_diff": 15,
+     "note": "Conference League qualifying",
+     "note_color": "#B2BFD0",
+     "zone": "uecl",
+     "form": [
+      {
+       "r": "D",
+       "o": "ROMA",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "CAG",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "D",
+       "o": "GEN",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "MIL",
+       "s": "3-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "BOL",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "FIO",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-22"
+      }
+     ],
+     "proj_points": 59.0,
+     "proj_gd": 15.0,
+     "avg_finish": 7.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "BOL",
+     "name": "Bologna",
+     "short_name": "Bologna",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+     "color": "#04043d",
+     "position": 8,
+     "rank": 8,
+     "games_played": 38,
+     "wins": 16,
+     "draws": 8,
+     "losses": 14,
+     "points": 56,
+     "ppg": 1.47,
+     "goals_for": 49,
+     "goals_against": 46,
+     "goal_diff": 3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "JUV",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "ROMA",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "CAG",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "NAP",
+       "s": "3-2",
+       "h": false,
+       "d": "2026-05-11"
+      },
+      {
+       "r": "W",
+       "o": "ATA",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "INT",
+       "s": "3-3",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 56.0,
+     "proj_gd": 3.0,
+     "avg_finish": 8.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LAZ",
+     "name": "Lazio",
+     "short_name": "Lazio",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+     "color": "#74bde7",
+     "position": 9,
+     "rank": 9,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 12,
+     "losses": 12,
+     "points": 54,
+     "ppg": 1.42,
+     "goals_for": 41,
+     "goals_against": 40,
+     "goal_diff": 1,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "NAP",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "UDI",
+       "s": "3-3",
+       "h": true,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "W",
+       "o": "CRE",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "L",
+       "o": "INT",
+       "s": "0-3",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "ROMA",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "PIS",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 54.0,
+     "proj_gd": 1.0,
+     "avg_finish": 9.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "UDI",
+     "name": "Udinese",
+     "short_name": "Udinese",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+     "color": "#19161D",
+     "position": 10,
+     "rank": 10,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 8,
+     "losses": 16,
+     "points": 50,
+     "ppg": 1.32,
+     "goals_for": 45,
+     "goals_against": 48,
+     "goal_diff": -3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "PAR",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "LAZ",
+       "s": "3-3",
+       "h": false,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "W",
+       "o": "TOR",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "CAG",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "L",
+       "o": "CRE",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "NAP",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 50.0,
+     "proj_gd": -3.0,
+     "avg_finish": 10.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "SAS",
+     "name": "Sassuolo",
+     "short_name": "Sassuolo",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+     "color": "#0fa653",
+     "position": 11,
+     "rank": 11,
+     "games_played": 38,
+     "wins": 14,
+     "draws": 7,
+     "losses": 17,
+     "points": 49,
+     "ppg": 1.29,
+     "goals_for": 46,
+     "goals_against": 50,
+     "goal_diff": -4,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "COMO",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "D",
+       "o": "FIO",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "MIL",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "TOR",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-08"
+      },
+      {
+       "r": "L",
+       "o": "LEC",
+       "s": "2-3",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "PAR",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 49.0,
+     "proj_gd": -4.0,
+     "avg_finish": 11.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "TOR",
+     "name": "Torino",
+     "short_name": "Torino",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+     "color": "#9f0000",
+     "position": 12,
+     "rank": 12,
+     "games_played": 38,
+     "wins": 12,
+     "draws": 9,
+     "losses": 17,
+     "points": 45,
+     "ppg": 1.18,
+     "goals_for": 44,
+     "goals_against": 63,
+     "goal_diff": -19,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "CRE",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "INT",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "UDI",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "SAS",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-08"
+      },
+      {
+       "r": "L",
+       "o": "CAG",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "JUV",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 45.0,
+     "proj_gd": -19.0,
+     "avg_finish": 13.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "PAR",
+     "name": "Parma",
+     "short_name": "Parma",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+     "color": "#19161D",
+     "position": 13,
+     "rank": 13,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 12,
+     "losses": 15,
+     "points": 45,
+     "ppg": 1.18,
+     "goals_for": 28,
+     "goals_against": 46,
+     "goal_diff": -18,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "UDI",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "PIS",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "INT",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "ROMA",
+       "s": "2-3",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "COMO",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "SAS",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 45.0,
+     "proj_gd": -18.0,
+     "avg_finish": 12.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "CAG",
+     "name": "Cagliari",
+     "short_name": "Cagliari",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+     "color": "#282846",
+     "position": 14,
+     "rank": 14,
+     "games_played": 38,
+     "wins": 11,
+     "draws": 10,
+     "losses": 17,
+     "points": 43,
+     "ppg": 1.13,
+     "goals_for": 40,
+     "goals_against": 53,
+     "goal_diff": -13,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "INT",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "W",
+       "o": "ATA",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-04-27"
+      },
+      {
+       "r": "D",
+       "o": "BOL",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "UDI",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "TOR",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "MIL",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 43.0,
+     "proj_gd": -13.0,
+     "avg_finish": 14.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "FIO",
+     "name": "Fiorentina",
+     "short_name": "Fiorentina",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+     "color": "#4c1d84",
+     "position": 15,
+     "rank": 15,
+     "games_played": 38,
+     "wins": 9,
+     "draws": 15,
+     "losses": 14,
+     "points": 42,
+     "ppg": 1.11,
+     "goals_for": 41,
+     "goals_against": 50,
+     "goal_diff": -9,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "LEC",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-20"
+      },
+      {
+       "r": "D",
+       "o": "SAS",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "ROMA",
+       "s": "0-4",
+       "h": false,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "D",
+       "o": "GEN",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "JUV",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "D",
+       "o": "ATA",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-22"
+      }
+     ],
+     "proj_points": 42.0,
+     "proj_gd": -9.0,
+     "avg_finish": 15.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "GEN",
+     "name": "Genoa",
+     "short_name": "Genoa",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+     "color": "#08305d",
+     "position": 16,
+     "rank": 16,
+     "games_played": 38,
+     "wins": 10,
+     "draws": 11,
+     "losses": 17,
+     "points": 41,
+     "ppg": 1.08,
+     "goals_for": 41,
+     "goals_against": 51,
+     "goal_diff": -10,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "PIS",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "COMO",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "ATA",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "D",
+       "o": "FIO",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "MIL",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "LEC",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 41.0,
+     "proj_gd": -10.0,
+     "avg_finish": 16.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LEC",
+     "name": "Lecce",
+     "short_name": "Lecce",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+     "color": "#e4002b",
+     "position": 17,
+     "rank": 17,
+     "games_played": 38,
+     "wins": 10,
+     "draws": 8,
+     "losses": 20,
+     "points": 38,
+     "ppg": 1.0,
+     "goals_for": 28,
+     "goals_against": 50,
+     "goal_diff": -22,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "FIO",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-20"
+      },
+      {
+       "r": "D",
+       "o": "VER",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "PIS",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-01"
+      },
+      {
+       "r": "L",
+       "o": "JUV",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-09"
+      },
+      {
+       "r": "W",
+       "o": "SAS",
+       "s": "3-2",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "W",
+       "o": "GEN",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 38.0,
+     "proj_gd": -22.0,
+     "avg_finish": 17.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "CRE",
+     "name": "Cremonese",
+     "short_name": "Cremonese",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png",
+     "color": null,
+     "position": 18,
+     "rank": 18,
+     "games_played": 38,
+     "wins": 8,
+     "draws": 10,
+     "losses": 20,
+     "points": 34,
+     "ppg": 0.89,
+     "goals_for": 32,
+     "goals_against": 57,
+     "goal_diff": -25,
+     "note": "Relegated",
+     "note_color": "#FF7F84",
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "TOR",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "NAP",
+       "s": "0-4",
+       "h": false,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "L",
+       "o": "LAZ",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-04"
+      },
+      {
+       "r": "W",
+       "o": "PIS",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "UDI",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "COMO",
+       "s": "1-4",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 34.0,
+     "proj_gd": -25.0,
+     "avg_finish": 18.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "VER",
+     "name": "Hellas Verona",
+     "short_name": "Verona",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/119.png",
+     "color": null,
+     "position": 19,
+     "rank": 19,
+     "games_played": 38,
+     "wins": 3,
+     "draws": 12,
+     "losses": 23,
+     "points": 21,
+     "ppg": 0.55,
+     "goals_for": 25,
+     "goals_against": 61,
+     "goal_diff": -36,
+     "note": "Relegated",
+     "note_color": "#FF7F84",
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "MIL",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "LEC",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "JUV",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "COMO",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "D",
+       "o": "INT",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "ROMA",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-24"
+      }
+     ],
+     "proj_points": 21.0,
+     "proj_gd": -36.0,
+     "avg_finish": 19.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "PIS",
+     "name": "Pisa",
+     "short_name": "Pisa",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3956.png",
+     "color": null,
+     "position": 20,
+     "rank": 20,
+     "games_played": 38,
+     "wins": 2,
+     "draws": 12,
+     "losses": 24,
+     "points": 18,
+     "ppg": 0.47,
+     "goals_for": 26,
+     "goals_against": 71,
+     "goal_diff": -45,
+     "note": "Relegated",
+     "note_color": "#FF7F84",
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "GEN",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "PAR",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "LEC",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-01"
+      },
+      {
+       "r": "L",
+       "o": "CRE",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "NAP",
+       "s": "0-3",
+       "h": true,
+       "d": "2026-05-17"
+      },
+      {
+       "r": "L",
+       "o": "LAZ",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-23"
+      }
+     ],
+     "proj_points": 18.0,
+     "proj_gd": -45.0,
+     "avg_finish": 20.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    }
+   ]
+  },
+  {
+   "key": "ligue1",
+   "name": "Ligue 1",
+   "country": "France",
+   "logo": "https://a.espncdn.com/i/leaguelogos/soccer/500/9.png",
+   "zones": [
+    {
+     "key": "ucl",
+     "label": "Champions League",
+     "color": "#2f6fed"
+    },
+    {
+     "key": "uel",
+     "label": "Europa League",
+     "color": "#e08e00"
+    },
+    {
+     "key": "uecl",
+     "label": "Conference League",
+     "color": "#12a150"
+    },
+    {
+     "key": "releg_playoff",
+     "label": "Relegation playoff",
+     "color": "#e0653a"
+    },
+    {
+     "key": "releg",
+     "label": "Relegation",
+     "color": "#e34948"
+    }
+   ],
+   "sim": {
+    "n_sims": 10000,
+    "league_mu": 1.41,
+    "n_remaining": 0,
+    "spots": {
+     "ucl": 4,
+     "europe": 6,
+     "releg": 3
+    }
+   },
+   "teams": [
+    {
+     "abbrev": "PSG",
+     "name": "Paris Saint-Germain",
+     "short_name": "PSG",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+     "color": "#011F68",
+     "position": 1,
+     "rank": 1,
+     "games_played": 34,
+     "wins": 24,
+     "draws": 4,
+     "losses": 6,
+     "points": 76,
+     "ppg": 2.24,
+     "goals_for": 74,
+     "goals_against": 29,
+     "goal_diff": 45,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "NAN",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-04-22"
+      },
+      {
+       "r": "W",
+       "o": "ANG",
+       "s": "3-0",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "D",
+       "o": "LOR",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "BRE",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "RCL",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "L",
+       "o": "PAR",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 76.0,
+     "proj_gd": 45.0,
+     "avg_finish": 1.0,
+     "p_title": 1.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "RCL",
+     "name": "Lens",
+     "short_name": "Lens",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+     "color": "#E91514",
+     "position": 2,
+     "rank": 2,
+     "games_played": 34,
+     "wins": 22,
+     "draws": 4,
+     "losses": 8,
+     "points": 70,
+     "ppg": 2.06,
+     "goals_for": 66,
+     "goals_against": 35,
+     "goal_diff": 31,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "TOU",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "D",
+       "o": "BRE",
+       "s": "3-3",
+       "h": false,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "D",
+       "o": "NICE",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "NAN",
+       "s": "1-0",
+       "h": true,
+       "d": "2026-05-08"
+      },
+      {
+       "r": "L",
+       "o": "PSG",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "W",
+       "o": "LYON",
+       "s": "4-0",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 70.0,
+     "proj_gd": 31.0,
+     "avg_finish": 2.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LILL",
+     "name": "Lille",
+     "short_name": "Lille",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+     "color": "#c2051b",
+     "position": 3,
+     "rank": 3,
+     "games_played": 34,
+     "wins": 18,
+     "draws": 7,
+     "losses": 9,
+     "points": 61,
+     "ppg": 1.79,
+     "goals_for": 52,
+     "goals_against": 37,
+     "goal_diff": 15,
+     "note": "Champions League",
+     "note_color": "#81D6AC",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "TOU",
+       "s": "4-0",
+       "h": false,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "D",
+       "o": "NICE",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "W",
+       "o": "PAR",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "HAC",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "MON",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "AUX",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 61.0,
+     "proj_gd": 15.0,
+     "avg_finish": 3.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LYON",
+     "name": "Lyon",
+     "short_name": "Lyon",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+     "color": "#ffffff",
+     "position": 4,
+     "rank": 4,
+     "games_played": 34,
+     "wins": 18,
+     "draws": 6,
+     "losses": 10,
+     "points": 60,
+     "ppg": 1.76,
+     "goals_for": 53,
+     "goals_against": 40,
+     "goal_diff": 13,
+     "note": "Champions League qualifying",
+     "note_color": "#B5E7CE",
+     "zone": "ucl",
+     "form": [
+      {
+       "r": "W",
+       "o": "LOR",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "W",
+       "o": "PSG",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "AUX",
+       "s": "3-2",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "REN",
+       "s": "4-2",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "TOU",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "RCL",
+       "s": "0-4",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 60.0,
+     "proj_gd": 13.0,
+     "avg_finish": 4.0,
+     "p_title": 0.0,
+     "p_ucl": 1.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "OLM",
+     "name": "Marseille",
+     "short_name": "Marseille",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+     "color": "#ffffff",
+     "position": 5,
+     "rank": 5,
+     "games_played": 34,
+     "wins": 18,
+     "draws": 5,
+     "losses": 11,
+     "points": 59,
+     "ppg": 1.74,
+     "goals_for": 63,
+     "goals_against": 45,
+     "goal_diff": 18,
+     "note": "Europa League",
+     "note_color": "#B2BFD0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "W",
+       "o": "METZ",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-04-10"
+      },
+      {
+       "r": "L",
+       "o": "LOR",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "NICE",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "NAN",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "HAC",
+       "s": "1-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "REN",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 59.0,
+     "proj_gd": 18.0,
+     "avg_finish": 5.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "REN",
+     "name": "Stade Rennais",
+     "short_name": "Rennes",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+     "color": "#ef2f24",
+     "position": 6,
+     "rank": 6,
+     "games_played": 34,
+     "wins": 17,
+     "draws": 8,
+     "losses": 9,
+     "points": 59,
+     "ppg": 1.74,
+     "goals_for": 59,
+     "goals_against": 50,
+     "goal_diff": 9,
+     "note": "Europa League",
+     "note_color": "#B2BFD0",
+     "zone": "uel",
+     "form": [
+      {
+       "r": "W",
+       "o": "ANG",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "W",
+       "o": "STR",
+       "s": "3-0",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "NAN",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "LYON",
+       "s": "2-4",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "PAR",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "OLM",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 59.0,
+     "proj_gd": 9.0,
+     "avg_finish": 6.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 1.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "MON",
+     "name": "AS Monaco",
+     "short_name": "Monaco",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+     "color": "#E91514",
+     "position": 7,
+     "rank": 7,
+     "games_played": 34,
+     "wins": 16,
+     "draws": 6,
+     "losses": 12,
+     "points": 54,
+     "ppg": 1.59,
+     "goals_for": 60,
+     "goals_against": 54,
+     "goal_diff": 6,
+     "note": "Conference League qualifying",
+     "note_color": "#B2BFD0",
+     "zone": "uecl",
+     "form": [
+      {
+       "r": "L",
+       "o": "PAR",
+       "s": "1-4",
+       "h": false,
+       "d": "2026-04-10"
+      },
+      {
+       "r": "D",
+       "o": "AUX",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "TOU",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "METZ",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "LILL",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "STR",
+       "s": "4-5",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 54.0,
+     "proj_gd": 6.0,
+     "avg_finish": 7.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "STR",
+     "name": "Strasbourg",
+     "short_name": "Strasbourg",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+     "color": "#0000bf",
+     "position": 8,
+     "rank": 8,
+     "games_played": 34,
+     "wins": 15,
+     "draws": 8,
+     "losses": 11,
+     "points": 53,
+     "ppg": 1.56,
+     "goals_for": 58,
+     "goals_against": 47,
+     "goal_diff": 11,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "REN",
+       "s": "0-3",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "W",
+       "o": "LOR",
+       "s": "3-2",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "TOU",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "ANG",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "BRE",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "W",
+       "o": "MON",
+       "s": "5-4",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 53.0,
+     "proj_gd": 11.0,
+     "avg_finish": 8.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "LOR",
+     "name": "Lorient",
+     "short_name": "Lorient",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+     "color": "#f46100",
+     "position": 9,
+     "rank": 9,
+     "games_played": 34,
+     "wins": 11,
+     "draws": 12,
+     "losses": 11,
+     "points": 45,
+     "ppg": 1.32,
+     "goals_for": 48,
+     "goals_against": 51,
+     "goal_diff": -3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "LYON",
+       "s": "0-2",
+       "h": false,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "W",
+       "o": "OLM",
+       "s": "2-0",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "STR",
+       "s": "2-3",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "PSG",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "W",
+       "o": "METZ",
+       "s": "4-0",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "HAC",
+       "s": "0-2",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 45.0,
+     "proj_gd": -3.0,
+     "avg_finish": 9.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "TOU",
+     "name": "Toulouse",
+     "short_name": "Toulouse",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+     "color": "#560080",
+     "position": 10,
+     "rank": 10,
+     "games_played": 33,
+     "wins": 12,
+     "draws": 8,
+     "losses": 13,
+     "points": 44,
+     "ppg": 1.33,
+     "goals_for": 47,
+     "goals_against": 46,
+     "goal_diff": 1,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "PSG",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-04-03"
+      },
+      {
+       "r": "L",
+       "o": "LILL",
+       "s": "0-4",
+       "h": true,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "L",
+       "o": "RCL",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-04-17"
+      },
+      {
+       "r": "D",
+       "o": "MON",
+       "s": "2-2",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "STR",
+       "s": "2-1",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "LYON",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-10"
+      }
+     ],
+     "proj_points": 44.0,
+     "proj_gd": 1.0,
+     "avg_finish": 10.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "PAR",
+     "name": "Paris FC",
+     "short_name": "Paris FC",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+     "color": "#000000",
+     "position": 11,
+     "rank": 11,
+     "games_played": 34,
+     "wins": 11,
+     "draws": 11,
+     "losses": 12,
+     "points": 44,
+     "ppg": 1.29,
+     "goals_for": 47,
+     "goals_against": 50,
+     "goal_diff": -3,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "W",
+       "o": "MON",
+       "s": "4-1",
+       "h": true,
+       "d": "2026-04-10"
+      },
+      {
+       "r": "W",
+       "o": "METZ",
+       "s": "3-1",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "LILL",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "BRE",
+       "s": "4-0",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "REN",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "PSG",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 44.0,
+     "proj_gd": -3.0,
+     "avg_finish": 11.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "BRE",
+     "name": "Brest",
+     "short_name": "Brest",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+     "color": "#ef2f24",
+     "position": 12,
+     "rank": 12,
+     "games_played": 34,
+     "wins": 10,
+     "draws": 9,
+     "losses": 15,
+     "points": 39,
+     "ppg": 1.15,
+     "goals_for": 43,
+     "goals_against": 55,
+     "goal_diff": -12,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "NAN",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "RCL",
+       "s": "3-3",
+       "h": true,
+       "d": "2026-04-24"
+      },
+      {
+       "r": "L",
+       "o": "PAR",
+       "s": "0-4",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "PSG",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "L",
+       "o": "STR",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-13"
+      },
+      {
+       "r": "D",
+       "o": "ANG",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 39.0,
+     "proj_gd": -12.0,
+     "avg_finish": 12.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "ANG",
+     "name": "Angers",
+     "short_name": "Angers",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+     "color": "#1a1a1a",
+     "position": 13,
+     "rank": 13,
+     "games_played": 34,
+     "wins": 9,
+     "draws": 9,
+     "losses": 16,
+     "points": 36,
+     "ppg": 1.06,
+     "goals_for": 29,
+     "goals_against": 48,
+     "goal_diff": -19,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "L",
+       "o": "REN",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "D",
+       "o": "HAC",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "L",
+       "o": "PSG",
+       "s": "0-3",
+       "h": true,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "L",
+       "o": "AUX",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "D",
+       "o": "STR",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "D",
+       "o": "BRE",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 36.0,
+     "proj_gd": -19.0,
+     "avg_finish": 13.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "HAC",
+     "name": "Le Havre AC",
+     "short_name": "Le Havre AC",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+     "color": "#011F68",
+     "position": 14,
+     "rank": 14,
+     "games_played": 34,
+     "wins": 7,
+     "draws": 14,
+     "losses": 13,
+     "points": 35,
+     "ppg": 1.03,
+     "goals_for": 32,
+     "goals_against": 44,
+     "goal_diff": -12,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "NICE",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "D",
+       "o": "ANG",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "METZ",
+       "s": "4-4",
+       "h": true,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "LILL",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "L",
+       "o": "OLM",
+       "s": "0-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "LOR",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 35.0,
+     "proj_gd": -12.0,
+     "avg_finish": 14.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "AUX",
+     "name": "AJ Auxerre",
+     "short_name": "Auxerre",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+     "color": "#ffffff",
+     "position": 15,
+     "rank": 15,
+     "games_played": 34,
+     "wins": 8,
+     "draws": 10,
+     "losses": 16,
+     "points": 34,
+     "ppg": 1.0,
+     "goals_for": 34,
+     "goals_against": 44,
+     "goal_diff": -10,
+     "note": null,
+     "note_color": null,
+     "zone": null,
+     "form": [
+      {
+       "r": "D",
+       "o": "NAN",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "D",
+       "o": "MON",
+       "s": "2-2",
+       "h": false,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "LYON",
+       "s": "2-3",
+       "h": false,
+       "d": "2026-04-25"
+      },
+      {
+       "r": "W",
+       "o": "ANG",
+       "s": "3-1",
+       "h": true,
+       "d": "2026-05-03"
+      },
+      {
+       "r": "W",
+       "o": "NICE",
+       "s": "2-1",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "W",
+       "o": "LILL",
+       "s": "2-0",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 34.0,
+     "proj_gd": -10.0,
+     "avg_finish": 15.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 0.0
+    },
+    {
+     "abbrev": "NICE",
+     "name": "Nice",
+     "short_name": "Nice",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+     "color": "#ef2f24",
+     "position": 16,
+     "rank": 16,
+     "games_played": 34,
+     "wins": 7,
+     "draws": 11,
+     "losses": 16,
+     "points": 32,
+     "ppg": 0.94,
+     "goals_for": 37,
+     "goals_against": 60,
+     "goal_diff": -23,
+     "note": "Relegation playoff",
+     "note_color": "#FEB4B5",
+     "zone": "releg_playoff",
+     "form": [
+      {
+       "r": "D",
+       "o": "HAC",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-12"
+      },
+      {
+       "r": "D",
+       "o": "LILL",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-18"
+      },
+      {
+       "r": "D",
+       "o": "OLM",
+       "s": "1-1",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "D",
+       "o": "RCL",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "AUX",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "D",
+       "o": "METZ",
+       "s": "0-0",
+       "h": true,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 32.0,
+     "proj_gd": -23.0,
+     "avg_finish": 16.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "NAN",
+     "name": "Nantes",
+     "short_name": "Nantes",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png",
+     "color": null,
+     "position": 17,
+     "rank": 17,
+     "games_played": 33,
+     "wins": 5,
+     "draws": 8,
+     "losses": 20,
+     "points": 23,
+     "ppg": 0.7,
+     "goals_for": 29,
+     "goals_against": 52,
+     "goal_diff": -23,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "D",
+       "o": "AUX",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-04-11"
+      },
+      {
+       "r": "D",
+       "o": "BRE",
+       "s": "1-1",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "L",
+       "o": "PSG",
+       "s": "0-3",
+       "h": false,
+       "d": "2026-04-22"
+      },
+      {
+       "r": "L",
+       "o": "REN",
+       "s": "1-2",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "W",
+       "o": "OLM",
+       "s": "3-0",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "RCL",
+       "s": "0-1",
+       "h": false,
+       "d": "2026-05-08"
+      }
+     ],
+     "proj_points": 23.0,
+     "proj_gd": -23.0,
+     "avg_finish": 17.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    },
+    {
+     "abbrev": "METZ",
+     "name": "Metz",
+     "short_name": "Metz",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+     "color": null,
+     "position": 18,
+     "rank": 18,
+     "games_played": 34,
+     "wins": 3,
+     "draws": 8,
+     "losses": 23,
+     "points": 17,
+     "ppg": 0.5,
+     "goals_for": 32,
+     "goals_against": 76,
+     "goal_diff": -44,
+     "note": "Relegation",
+     "note_color": "#FF7F84",
+     "zone": "releg",
+     "form": [
+      {
+       "r": "L",
+       "o": "OLM",
+       "s": "1-3",
+       "h": false,
+       "d": "2026-04-10"
+      },
+      {
+       "r": "L",
+       "o": "PAR",
+       "s": "1-3",
+       "h": true,
+       "d": "2026-04-19"
+      },
+      {
+       "r": "D",
+       "o": "HAC",
+       "s": "4-4",
+       "h": false,
+       "d": "2026-04-26"
+      },
+      {
+       "r": "L",
+       "o": "MON",
+       "s": "1-2",
+       "h": true,
+       "d": "2026-05-02"
+      },
+      {
+       "r": "L",
+       "o": "LOR",
+       "s": "0-4",
+       "h": true,
+       "d": "2026-05-10"
+      },
+      {
+       "r": "D",
+       "o": "NICE",
+       "s": "0-0",
+       "h": false,
+       "d": "2026-05-17"
+      }
+     ],
+     "proj_points": 17.0,
+     "proj_gd": -44.0,
+     "avg_finish": 18.0,
+     "p_title": 0.0,
+     "p_ucl": 0.0,
+     "p_europe": 0.0,
+     "p_releg": 1.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+name: Refresh data & deploy to GitHub Pages
+
+# Regenerates site/data.json (Big 5 standings) fresh in the CI workspace and
+# publishes site/ to GitHub Pages. Data is generated at deploy time and NOT
+# committed back — so the run needs no write access and there is no commit
+# noise. The committed data.json is just a seed/fallback for local use.
+
+on:
+  schedule:
+    # Fri / Sat / Sun / Mon at ~3pm US Pacific — after the weekend's European
+    # matches have finished. GitHub cron is UTC and does not follow DST, so this
+    # fixed 22:30 UTC is 3:30pm PDT / 2:30pm PST (i.e. ~3pm year-round). Days:
+    # 5=Fri, 6=Sat, 0=Sun, 1=Mon.
+    - cron: "30 22 * * 5,6,0,1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "fetch/**"
+      - "build/**"
+      - "run.py"
+      - ".github/workflows/pages.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate data
+        run: python run.py
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
