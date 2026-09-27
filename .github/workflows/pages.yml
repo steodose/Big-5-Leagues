@@ -19,6 +19,7 @@ on:
       - "site/**"
       - "fetch/**"
       - "build/**"
+      - "sim/**"
       - "run.py"
       - ".github/workflows/pages.yml"
 

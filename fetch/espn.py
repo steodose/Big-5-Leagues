@@ -36,8 +36,10 @@ _STAT_MAP = {
 
 
 def _get(url: str, params: dict | None = None) -> dict:
-    resp = requests.get(url, params=params, timeout=TIMEOUT,
-                        headers={"User-Agent": "big5-dashboard/1.0"})
+    # No custom User-Agent: ESPN's per-team /schedule endpoint answers a
+    # non-browser UA like "big5-dashboard/1.0" with a non-JSON body, which
+    # silently emptied every form guide and fixture list.
+    resp = requests.get(url, params=params, timeout=TIMEOUT)
     resp.raise_for_status()
     return resp.json()
 
@@ -106,16 +108,25 @@ def fetch_team_matches(slug: str, team_id: str, season: int) -> list[dict]:
 
     Each item: {"id", "date": iso, "is_home": bool, "opp": abbrev,
     "gf": int|None, "ga": int|None, "completed": bool} — enough to derive both the
-    form guide and the league's remaining-fixture list. One request per team;
-    failures degrade to an empty list so a single bad fetch never sinks the run.
+    form guide and the league's remaining-fixture list. ESPN splits the schedule:
+    the default call returns only played matches and `fixture=true` only upcoming
+    ones, so both are requested and merged. Failures degrade to whatever was
+    fetched (with a warning) so a single bad fetch never sinks the run.
     """
-    try:
-        data = _get(SCHEDULE_URL.format(slug=slug, tid=team_id), {"season": season})
-    except requests.RequestException:
-        return []
+    url = SCHEDULE_URL.format(slug=slug, tid=team_id)
+    events: dict[str, dict] = {}
+    for params in ({"season": season}, {"season": season, "fixture": "true"}):
+        try:
+            data = _get(url, params)
+        except (requests.RequestException, ValueError) as e:
+            print(f"    warning: {slug} team {team_id} schedule "
+                  f"({'fixtures' if 'fixture' in params else 'results'}) failed: {e}")
+            continue
+        for ev in data.get("events", []):
+            events[ev.get("id")] = ev
 
     out: list[dict] = []
-    for ev in data.get("events", []):
+    for ev in events.values():
         comp = (ev.get("competitions") or [{}])[0]
         mine = opp = None
         for c in comp.get("competitors", []):

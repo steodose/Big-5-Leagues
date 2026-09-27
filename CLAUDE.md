@@ -90,6 +90,10 @@ merged onto each team) → `build.export.write` → `site/data.json` (+ `data.js
   doesn't mention simply doesn't appear in that league's legend.
 - **Theme reuses the MLS identity** (black header + blue analytics accent,
   theme-aware light/dark). No xGD heat cell here (no xG yet).
+- **ESPN `/schedule` quirks.** It returns a non-JSON body to a custom
+  User-Agent (so `_get` sends none), and it only lists *played* matches unless
+  `fixture=true` is passed — `fetch_team_matches` requests both and merges. If
+  Form is blank or the sim shows `n_remaining: 0` mid-season, suspect this first.
 - **Frontend is dependency-free** and must be served over http (it `fetch()`es
   `data.json`; `data.js` is the `file://` fallback).
 
