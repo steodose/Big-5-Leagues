@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <title>Big 5 Leagues — Standings</title>
-  <link rel="icon" type="image/svg+xml" href="assets/uefa-logo.svg" />
-  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/svg+xml" href="assets/uefa-logo.svg?v=2" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png?v=2" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=2" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -39,8 +39,8 @@
   </div>
 
   <nav class="tabs">
-    <button class="tab is-active" data-tab="standings">Standings</button>
-    <button class="tab" data-tab="sims">Simulations</button>
+    <button class="tab is-active" data-tab="standings">Table</button>
+    <button class="tab" data-tab="sims">Projections</button>
     <button class="tab" data-tab="how">How This Works</button>
   </nav>
 
@@ -82,12 +82,12 @@
 
       <p class="panel-intro">
         Rest-of-season forecast. Each club's attacking and defensive strength is
-        estimated from its <b>goals scored and conceded</b> (regressed toward the
+        estimated from its goals scored and conceded (regressed toward the
         league average), turned into an expected scoreline for every remaining
-        fixture with a home-field edge, and played out with random <b>Poisson</b>
+        fixture with a home-field edge, and played out with random Poisson
         goals thousands of times. The percentages are how often each club
-        finished as <b>champion</b>, in the <b>top four</b>, in a <b>European</b>
-        place, or in the <b>relegation</b> zone. <span id="sims-note"></span>
+        finished as champion, in the top four, in a European
+        place, or in the relegation zone. <span id="sims-note"></span>
         Sortable &mdash; click a header.
       </p>
 
@@ -114,49 +114,25 @@
           global standard (3 for a win, 1 for a draw). Ordering follows each
           league's own official tiebreakers &mdash; ESPN already applies them
           (and any points deductions), so the order you see is the order that
-          counts. <b>PPG</b> is points per game, handy mid-season when clubs have
-          played an uneven number of matches. The <b>Form</b> guide shows each
+          counts. PPG is points per game, handy mid-season when clubs have
+          played an uneven number of matches. The Form guide shows each
           club's last six league results, oldest to newest &mdash; blue for a
           win, grey for a draw, red for a loss (hover a pill for the opponent
           and score).
         </p>
 
-        <h2>The colored bands</h2>
-        <p>
-          The colored edge beside a club's position marks the zone it currently
-          sits in &mdash; <b>Champions League</b>, <b>Europa League</b>,
-          <b>Conference League</b>, or <b>relegation</b>. Exactly which places
-          qualify differs by country and shifts season to season (European
-          coefficients, cup winners, and the like), so the bands are read
-          straight from the league table rather than hard-coded.
-        </p>
-
-        <h2>Switching leagues</h2>
-        <p>
-          Use the dropdown to jump between the five leagues; the table, the zone
-          legend, and the crest all follow. Every column is sortable &mdash;
-          click a header &mdash; and each table exports to <b>PNG</b> or
-          <b>CSV</b>.
-        </p>
-
         <h2>The forecast</h2>
         <p>
-          The <b>Simulations</b> tab projects the rest of the season. Each club's
-          attacking and defensive strength is estimated from its <b>goals scored
-          and conceded</b> &mdash; regressed toward the league average so a small
+          The Projections tab projects the rest of the season. Each club's
+          attacking and defensive strength is estimated from its goals scored
+          and conceded &mdash; regressed toward the league average so a small
           sample or a hot finishing run doesn't dominate &mdash; and turned into
           an expected scoreline for every remaining fixture, with a home-field
-          edge. Those fixtures are played out with random <b>Poisson</b> goals
+          edge. Those fixtures are played out with random Poisson goals
           thousands of times, starting from the table as it stands today. The
           probabilities shown &mdash; winning the title, a top-four or European
           finish, or going down &mdash; are simply how often each happened across
           all of those simulated seasons.
-        </p>
-
-        <h2>What's next</h2>
-        <p>
-          <b>Expected goals (xG)</b> columns and xG-based ratings, once a reliable
-          Big&nbsp;5 xG feed that survives an automated fetch is wired in.
         </p>
       </div>
     </section>
