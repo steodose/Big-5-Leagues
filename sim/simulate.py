@@ -92,6 +92,8 @@ def run(teams: list[dict], remaining: list[dict], spots: dict,
     avg_finish = place.mean(0)
     proj_points = pts.mean(0)
     proj_gd = gd.mean(0)
+    # (n_teams, n_teams): row i = team i's chance of finishing 1st..Nth
+    pos_dist = np.stack([(place == k).mean(0) for k in range(1, n + 1)], axis=1)
 
     results = {}
     for i, t in enumerate(teams):
@@ -103,6 +105,7 @@ def run(teams: list[dict], remaining: list[dict], spots: dict,
             "p_ucl": float(p_ucl[i]),
             "p_europe": float(p_europe[i]),
             "p_releg": float(p_releg[i]),
+            "p_pos": [round(float(x), 4) for x in pos_dist[i]],
         }
     return {
         "meta": {"n_sims": n_sims, "league_mu": round(rt["mu"], 2),

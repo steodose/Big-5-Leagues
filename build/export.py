@@ -19,7 +19,7 @@ _FIELDS = [
     "note", "note_color", "zone", "form",
     # simulation outputs
     "proj_points", "proj_gd", "avg_finish",
-    "p_title", "p_ucl", "p_europe", "p_releg",
+    "p_title", "p_ucl", "p_europe", "p_releg", "p_pos",
 ]
 
 

@@ -82,15 +82,21 @@
 
       <p class="panel-intro">
         Rest-of-season forecast. <span id="sims-note"></span>
-        Sortable &mdash; click a header.
+        <span id="sims-hint">Sortable &mdash; click a header.</span>
       </p>
 
-      <div class="legend">
-        <span><i class="sw" style="background:rgb(var(--amber))"></i> darker = likelier</span>
+      <div class="view-toggle" role="tablist" aria-label="Projection view">
+        <button class="view-btn is-active" data-view="pred" role="tab">Predictions</button>
+        <button class="view-btn" data-view="pos" role="tab">Positions</button>
+        <button class="view-btn" data-view="out" role="tab">Outcomes</button>
       </div>
 
+      <div class="legend" id="sims-legend"></div>
+
       <div class="table-wrap" id="wrap-sims">
-        <table class="std-table"><thead></thead><tbody></tbody></table>
+        <table class="std-table sim-view" data-view="pred"><thead></thead><tbody></tbody></table>
+        <table class="std-table pos-table sim-view" data-view="pos" hidden><thead></thead><tbody></tbody></table>
+        <div class="outcomes-chart sim-view" data-view="out" hidden></div>
       </div>
     </section>
 
@@ -122,7 +128,10 @@
           thousands of times, starting from the table as it stands today. The
           probabilities shown &mdash; winning the title, a top-four or European
           finish, or going down &mdash; are simply how often each happened across
-          all of those simulated seasons.
+          all of those simulated seasons. Switch to <b>Positions</b> for each
+          club's chance of finishing in every place in the table, or
+          <b>Outcomes</b> for the same odds as stacked bars split by title,
+          Champions League, Europe, mid-table, and relegation.
         </p>
       </div>
     </section>
